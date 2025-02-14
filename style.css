@@ -209,6 +209,7 @@ button{
 }
 
 .container1 {
+
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
     grid-template-rows: repeat(2, auto);  
@@ -220,6 +221,7 @@ button{
 
 }
 .watch{
+
     background-image: url(pictures/store-card-40-bhm-202501.jpg);
     background-size: 100%;
     height: 600px;
@@ -231,6 +233,7 @@ button{
     
 }
 .vday{
+
      background-image: url(pictures/store-card-40-valentines-accessories-202501.jpg);
      background-size: 100%;
     height: 600px;
@@ -262,28 +265,17 @@ button{
     border-radius: 10px;
 }
 .container1 button{
-    top: 5%;
-    left: 40%;
+    top: 2%;
+    left: 150px;
     border-radius: 50px;
-    height: 50px;
+    height: 30px;
     font-size: 16px;
     border: solid;
     border-color:  rgb(93, 93, 250);
     cursor: pointer;
     position: relative;
 }
-.container1 .watch button{
-    margin-top: 0%;
-    top: -30px;
-    left: 40%;
-    border-radius: 50px;
-    height: 50px;
-    font-size: 16px;
-    border: solid;
-    border-color:  rgb(93, 93, 250);
-    cursor: pointer;
-    position: relative;
-}
+
 .container1 #b1{
     padding: 5px;
     width: 100px;
@@ -300,4 +292,56 @@ button{
     margin-left: 20px;
     background-color: transparent;
     color: rgb(93, 93, 250);
+}
+.watch #b2{
+    left: 200px;
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+.watch h1{
+    position: relative;
+    color: white;
+    margin-top: 25px;
+}
+.watch h2{
+    color: white;
+}
+.watch img{
+    position: relative;
+    height: 45px;
+    top: 10px;
+}
+.mac h1{
+    color: black;
+    margin-top: 20px;
+}
+.mac h2{
+    color: black;
+}
+.bcont{
+    display: flex;
+    flex-direction: row;
+    left: 10px;
+}
+.ipad{
+    color: white;
+}
+.vday h1{
+    color: black;
+    margin-top: 20px;
+}
+.vday h2{
+    color: black;
+}
+.ipad h1{
+    color: white;
+    margin-top: 30px;
+}
+.ipad h2{
+    color:white;
+}
+.hero3 img{
+    height: 60px;
+    margin-top: 5px;
 }
