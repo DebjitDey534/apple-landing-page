@@ -3,7 +3,7 @@
 A clean HTML & CSS recreation of Apple's landing page design.
 
 ## ​ Demo
-- **Live Preview**: _(Add deployed link if available)_
+- **Live Preview**: https://debjitdey534.github.io/apple-landing-page/
 
 ##  What It Does
 This project replicates the layout and styling of Apple's landing page for practice in design and responsiveness.
